@@ -15,7 +15,6 @@ timezone: Asia/Shanghai
 # ↓ --------------------------
 
 title: Web3Stroll
-
 tagline: 探索去中心化网络的足迹
 
 description: >- # used by seo meta and the atom feed
@@ -26,12 +25,13 @@ description: >- # used by seo meta and the atom feed
 url: "https://web3stroll.com"
 
 github:
-  username: github_username # change to your GitHub username
-zhouyuhua111149-wq
+  username: zhouyuhua111149-wq
+
 twitter:
   username: ZhouYuhua5023
 
 social:
+  # Change to your full name.
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: your_full_name
@@ -92,7 +92,7 @@ pageviews:
 theme_mode: # [light | dark]
 
 # The CDN endpoint for media resources.
-# Notice that once it is assigned, the CDN url
+# Notice that once it is assigned, the CDN 
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
@@ -101,7 +101,7 @@ cdn: "https://chirpy-img.netlify.app"
 # the avatar on sidebar, support local or CORS resources
 avatar: "/commons/avatar.jpg"
 
-# The URL of the site-wide social preview image used in SEO `og:image` meta tag.
+# The  of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: # string, local or CORS resources
 
