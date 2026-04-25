@@ -19,7 +19,7 @@
 </div>
 
 ## Features
-
+  
 - **Design & UX** - Responsive layout, Dark/Light modes, Localized UI language,
   and Dark mode images.
 - **Content Management** - Pinned posts, Hierarchical categories, Trending tags,
