@@ -1,0 +1,19 @@
+title: Web3Stroll
+tagline: 探索去中心化网络的足迹
+description: Web3与DePIN技术的实战记录与探索。
+url: "https://web3stroll.com"
+baseurl: ""
+
+github:
+  username: zhouyuhua111149-wq
+
+twitter:
+  username: ZhouYuhua5023
+
+social:
+  name: "Zhou Yuhua"
+  email: zhouyuhua111149@gmail.com
+  links:
+    - https://x.com/ZhouYuhua5023
+
+theme: jekyll-theme-chirpy
