@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- 1. 核心缓存控制（已移入 head 内部，确保生效） -->
+    <!-- 核心缓存控制，确保每次打开都是最新版 -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
@@ -17,7 +17,6 @@
         .card:hover { background: #00ffa3; color: #0a0a0a; box-shadow: 0 0 20px #00ffa3; transform: translateY(-5px); }
         h1 { font-size: 2em; letter-spacing: 5px; margin: 0; text-transform: uppercase; }
         
-        /* 文章链接区域样式 */
         .insights-section { margin-top: 40px; text-align: left; border-top: 1px solid #333; padding-top: 20px; }
         .insights-label { color: #888; font-size: 0.7em; letter-spacing: 2px; margin-bottom: 15px; text-transform: uppercase; }
         .article-link { display: block; color: #fff; text-decoration: none; font-size: 0.9em; padding: 10px 0; border-bottom: 1px dotted #222; transition: 0.2s; }
@@ -38,16 +37,17 @@
         <p style="opacity: 0.6; font-size: 0.9em;">Automation Architecture & DePIN Resource Hub</p>
         
         <div class="grid">
-            <!-- 2. 修改此处：点击火箭直接进入业务长页 /go/ -->
+            <!-- 左侧：火箭直达指挥部调度长页 -->
             <a href="https://web3stroll.com/go/" class="card">🚀 GO REPO<br><small>Core Scripts</small></a>
             
+            <!-- 右侧：直达本网站的 GitHub 源码仓库，方便老哥后台操作 -->
             <a href="https://github.com/zhouyuhua111149-wq/web3stroll.github.io" class="card">🔗 PROJECT REPO<br><small>Deployment</small></a>
         </div>
 
         <div class="insights-section">
             <div class="insights-label">Latest Insights</div>
             <a href="github-as-brand.html" class="article-link">> GitHub as a Personal Brand: More Than Just Code</a>
-            </div>
+        </div>
 
         <div class="about-section">
             <h2>About Us</h2>
