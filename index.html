@@ -1,9 +1,11 @@
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- 1. 核心缓存控制（已移入 head 内部，确保生效） -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web3Stroll | Command Center</title>
@@ -36,7 +38,9 @@
         <p style="opacity: 0.6; font-size: 0.9em;">Automation Architecture & DePIN Resource Hub</p>
         
         <div class="grid">
-            <a href="https://github.com/zhouyuhua111149-wq/go" class="card">🚀 GO REPO<br><small>Core Scripts</small></a>
+            <!-- 2. 修改此处：点击火箭直接进入业务长页 /go/ -->
+            <a href="https://web3stroll.com/go/" class="card">🚀 GO REPO<br><small>Core Scripts</small></a>
+            
             <a href="https://github.com/zhouyuhua111149-wq/web3stroll.github.io" class="card">🔗 PROJECT REPO<br><small>Deployment</small></a>
         </div>
 
